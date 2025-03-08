@@ -12,7 +12,7 @@ const Messenger = () => {
   const [to, setTo] = useState(contacts[0]);
 
   return (
-    <div>
+    <div className='messenger'>
       <ContactList 
         contacts={contacts} 
         selectedContact={to} 
