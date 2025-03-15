@@ -9,7 +9,11 @@ const Navbar = () => {
             className={({ isActive }) => `nav-link ${isActive ? "active" : ""}`}>
             ManageState
         </NavLink>
-      
+        <NavLink 
+            to="/reacting-to-input-with-state" 
+            className={({ isActive }) => `nav-link ${isActive ? "active" : ""}`}>
+            InputState
+        </NavLink> 
     </div>
   )
 }

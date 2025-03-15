@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
   box-sizing: border-box;
-  /* font-family: 'Roboto', sans-serif; */
   margin: 0;
   padding: 0;
 }
@@ -16,7 +15,6 @@ body {
 }
 
 .navbar {
-  /* background-color: rgb(135, 143, 52); */
   background-color: #BDB76B;
   padding: 14px 20px;
   margin: -12px;
@@ -43,6 +41,8 @@ body {
 .form-state {
   margin-bottom: 10px;
 }
+
+.Error { color: red; }
 
 .accordion {
   background-color: #f1f1f1;
@@ -103,4 +103,42 @@ input[type="text"] { padding: 6px; }
   border-radius: 5px;
   border: 1px solid #aaa;
   line-height: 1.5;
+}
+
+
+/* Challenge 1 (Reacting to Input State) */
+.background {
+  width: 40vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #eee;
+  margin: 20px 0;
+}
+
+.background--active {
+  background: #a6b5ff;
+}
+
+.picture {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  border: 5px solid transparent;
+}
+
+.picture--active {
+  border: 5px solid #a6b5ff;
+}
+
+/* Challenge 2 (Reacting to Input State) */
+
+.edit-profile {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  /* background-color: #26eea1; */
 }

@@ -11,7 +11,7 @@ const ManageState = () => {
   return (
     <div>
         <FormState />
-        <Form2 />
+        <Form2 /> 
         <Accordion />
         <Messenger />
         <TaskApp />
