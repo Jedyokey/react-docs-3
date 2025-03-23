@@ -1,12 +1,8 @@
 * {
   box-sizing: border-box;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 body {
-  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
   font-family: 'Roboto', sans-serif;
   margin: 10px;
   padding: 0;
@@ -23,18 +19,24 @@ body {
   display: flex;
   justify-content: space-between;
 }
+
 .navbar .nav-link {
   color: #ffffff;
   text-decoration: none;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
 }
 .navbar .nav-link:hover {
   text-decoration: underline;
 }
+
 .active {
   background-color: #BC8F8F;   
   padding: 4px 10px;     
   border-radius: 7px;
+}
+
+.heading {
+  margin: 20px 0 10px;
 }
 
 /* Managing State in React (Overview) */
@@ -72,7 +74,7 @@ body {
   margin-bottom: 20px;
 }
 
-.contact-list ul, li {
+.contact-list ul li {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -90,9 +92,10 @@ body {
 button { 
   margin: 5px; 
   padding: 5px 10px;
-  cursor: pointer;}
-li { list-style-type: none; }
-ul, li { margin: 0; padding: 0; }
+  cursor: pointer;
+}
+/* li { list-style-type: none; }
+ul, li { margin: 0; padding: 0; } */
 
 input[type="checkbox"] { margin-right: 10px; }
 input[type="text"] { padding: 6px; }
@@ -141,4 +144,20 @@ input[type="text"] { padding: 6px; }
   justify-content: flex-start;
   align-items: flex-start;
   /* background-color: #26eea1; */
+}
+
+/* Choosing the State Structure */
+.menu {
+  list-style-type: none;
+}
+.menu li {
+  margin: 0;
+  padding: 0;
+}
+
+.selected {
+  background-color: #f1f1f1;
+  padding: 4px 10px;
+  border-radius: 7px;
+  width: 40%;
 }

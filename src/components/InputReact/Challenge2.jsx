@@ -51,6 +51,7 @@ const EditProfile = () => {
 
     return (
         <div className='edit'>
+            <h3 style={{marginBottom: "10px"}}>Challenge 2 of 2: Profile editor </h3>
             <form onSubmit={handleFormSubmit}>
                 <label htmlFor="">
                     First Name: {" "} <b>{firstName}</b>
