@@ -64,7 +64,11 @@ body {
   border: 1px solid #aaa;
 }
 
-.panel h3, .panel p {
+.panel h3 {
+  margin: 5px 0;
+}
+.panel p {
+  transition: opacity 0.3s ease;
   margin: 5px 0;
 }
 
@@ -87,7 +91,6 @@ body {
 .chat textarea {
   height: 150px;
 }
-
 
 button { 
   margin: 5px; 
@@ -161,3 +164,5 @@ input[type="text"] { padding: 6px; }
   border-radius: 7px;
   width: 40%;
 }
+
+/* Sharing State Between Components */

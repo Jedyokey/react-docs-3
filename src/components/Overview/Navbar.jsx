@@ -19,6 +19,11 @@ const Navbar = () => {
           className={({ isActive }) => `nav-link ${isActive ? "active" : ""}`}>
           StateStructure
         </NavLink> 
+        <NavLink 
+          to="/sharing-state-between-components" 
+          className={({ isActive }) => `nav-link ${isActive ? "active" : ""}`}>
+          SharingState
+        </NavLink> 
     </div>
   )
 }
