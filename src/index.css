@@ -101,7 +101,7 @@ button {
 ul, li { margin: 0; padding: 0; } */
 
 input[type="checkbox"] { margin-right: 10px; }
-input[type="text"] { padding: 6px; }
+input[type="text"], input[type="email"] { padding: 6px; }
 
 .section {
   padding: 10px;
@@ -166,3 +166,75 @@ input[type="text"] { padding: 6px; }
 }
 
 /* Sharing State Between Components */
+
+/* Preserving and Resetting State  */
+.label-counter {
+  display: block;
+  clear: both;
+}
+
+.counter {
+  width: 200px;
+  text-align: center;
+  border: 1px solid gray;
+  border-radius: 4px;
+  padding: 20px;
+  margin: 0 20px 20px 0;
+  float: left;
+}
+
+.hover {
+  background: #ffffd8;
+}
+
+.fancy {
+  border: 5px solid gold;
+  color: #ff6767;
+}
+
+.scoreboard {
+  width: 200px;
+  text-align: center;
+  border: 1px solid gray;
+  border-radius: 4px;
+  padding: 20px;
+  margin: 0 20px 10px 0;
+}
+.scoreboard.fancy {
+  border: 5px solid gold;
+  color: #ff6767;
+}
+
+.chat, .contact-list {
+  float: left;
+  margin-bottom: 20px;
+}
+
+.new-contact-list {
+  padding-inline-start: 20px;
+}
+.new-contact-list, li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.new-contact-list li {
+  display: inline-block;
+}
+.new-contact-list li button {
+  padding: 10px;
+}
+
+.edit-contact label {
+  display: block;
+  margin: 10px 0;
+}
+.edit-contact button {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.gallery-img {
+  width: 150px;
+  height: 150px;
+}

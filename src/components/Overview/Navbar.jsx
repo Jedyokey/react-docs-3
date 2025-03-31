@@ -24,6 +24,11 @@ const Navbar = () => {
           className={({ isActive }) => `nav-link ${isActive ? "active" : ""}`}>
           SharingState
         </NavLink> 
+        <NavLink 
+          to="/preserving-and-resetting-state" 
+          className={({ isActive }) => `nav-link ${isActive ? "active" : ""}`}>
+          PreservingState
+        </NavLink> 
     </div>
   )
 }
