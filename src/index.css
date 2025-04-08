@@ -75,6 +75,7 @@ body {
 .messenger {
   display: flex;
   justify-content: flex-start;
+  align-items: flex-start;
   margin-bottom: 20px;
 }
 
@@ -205,10 +206,10 @@ input[type="text"], input[type="email"] { padding: 6px; }
   color: #ff6767;
 }
 
-.chat, .contact-list {
+/* .chat, .contact-list {
   float: left;
   margin-bottom: 20px;
-}
+} */
 
 .new-contact-list {
   padding-inline-start: 20px;

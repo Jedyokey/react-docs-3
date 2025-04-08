@@ -6,6 +6,8 @@ import InputState from './pages/InputState';
 import StateStructure from './pages/StateStructure';
 import SharingState from './pages/SharingState';
 import PreservingState from './pages/PreservingState';
+import ExtractingState from './pages/ExtractingState';
+import DataWithContext from './pages/DataWithContext';
 
 const App = () => {
   return (
@@ -18,6 +20,8 @@ const App = () => {
           <Route path='/choosing-the-state-structure' element={<StateStructure />} />
           <Route path='/sharing-state-between-components' element={<SharingState />} />
           <Route path='/preserving-and-resetting-state' element={<PreservingState />} />
+          <Route path='/extracting-state-logic-into-a-reducer' element={<ExtractingState />} />
+          <Route path='/passing-data-deeply-with-context' element={<DataWithContext />} />
         </Routes>
       </Router>
       

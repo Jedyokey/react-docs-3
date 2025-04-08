@@ -29,6 +29,16 @@ const Navbar = () => {
           className={({ isActive }) => `nav-link ${isActive ? "active" : ""}`}>
           PreservingState
         </NavLink> 
+        <NavLink 
+          to="/extracting-state-logic-into-a-reducer" 
+          className={({ isActive }) => `nav-link ${isActive ? "active" : ""}`}>
+          ExtractingState
+        </NavLink> 
+        <NavLink 
+          to="/passing-data-deeply-with-context" 
+          className={({ isActive }) => `nav-link ${isActive ? "active" : ""}`}>
+          DataWithContext
+        </NavLink> 
     </div>
   )
 }
