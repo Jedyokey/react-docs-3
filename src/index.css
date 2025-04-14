@@ -239,3 +239,17 @@ input[type="text"], input[type="email"] { padding: 6px; }
   width: 150px;
   height: 150px;
 }
+
+/* Passing Data Deeply With Context */
+.challenge {
+  list-style-type: none;
+  padding: 0px 10px;
+}
+
+.challenge li {
+  margin-bottom: 10px; 
+  display: grid; 
+  grid-template-columns: auto 1fr;
+  gap: 20px;
+  align-items: center;
+}
