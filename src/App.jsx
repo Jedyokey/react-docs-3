@@ -8,6 +8,7 @@ import SharingState from './pages/SharingState';
 import PreservingState from './pages/PreservingState';
 import ExtractingState from './pages/ExtractingState';
 import DataWithContext from './pages/DataWithContext';
+import ReducerAndContext from './pages/ReducerAndContext';
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
           <Route path='/preserving-and-resetting-state' element={<PreservingState />} />
           <Route path='/extracting-state-logic-into-a-reducer' element={<ExtractingState />} />
           <Route path='/passing-data-deeply-with-context' element={<DataWithContext />} />
+          <Route path='/scaling-up-with-reducer-and-context' element={<ReducerAndContext />} />
         </Routes>
       </Router>
       

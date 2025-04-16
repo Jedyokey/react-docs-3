@@ -39,6 +39,11 @@ const Navbar = () => {
           className={({ isActive }) => `nav-link ${isActive ? "active" : ""}`}>
           DataWithContext
         </NavLink> 
+        <NavLink 
+          to="/scaling-up-with-reducer-and-context" 
+          className={({ isActive }) => `nav-link ${isActive ? "active" : ""}`}>
+          Reducer&Context
+        </NavLink> 
     </div>
   )
 }
